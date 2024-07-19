@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  color: #333;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+.container img {
+  height: 300px;
+  width: 450px;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+  flex-wrap: wrap;
+}
+.box .dream img {
+  margin: 10px;
+}
+#dream-middle img {
+  height: 492px;
+}
+.heading {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 2px solid black;
+  margin: 20px;
+}
+h3 {
+  font-size: 40px;
+}
+#gallery {
+  font-weight: 1;
+}
+
+@media only screen and (max-width: 769px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .dream img {
+    height: 350px;
+    width: 550px;
+  }
+  #dream-middle img {
+    height: 592px;
+  }
+}
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.footer i {
+  margin: 0.5rem;
+}
+.footer .social {
+  text-align: center;
+}
+.social i {
+  font-size: 24px;
+  color: #333;
+}
+.footer p {
+  color: #333;
+}
